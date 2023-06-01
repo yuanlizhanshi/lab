@@ -10,11 +10,23 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="css/theme.css" rel="stylesheet">
+      <style>
+         /* 改变背景颜色 */
+         .nav {
+           background-color: #750069;
+         }
+         /* 改变字体颜色 */
+         .navbar-inner .nav li a {
+           color: #fff;
+           font-size: 20px;
+         }
+       </style>
    </head>
    <body>
       <div class="container">
          <header class="jumbotron subhead" id="overview" >
-            <h1><font color='#00498f' style="font-size: 31.5px;">Laboratory of Complex Disease and Quantitative Biology</font></h1>
+
+            <h1><font color='#750069' style="font-size: 31.5px;">Laboratory of Complex Disease and Quantitative Biology</font></h1>
             <br>               
          </header>
          <div class="masthead">
@@ -22,7 +34,7 @@
                <div class="navbar-inner">
                   <div class="container">
                      <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class=""><a href="#" >Home</a></li>
                         <li><a href="people.html">People</a></li>
                         <li><a href="research.html">Research</a></li>
                         <li><a href="publications.html">Publications</a></li>                    
@@ -37,12 +49,12 @@
             <div class="span12">
                <div id="main-carousel" class="carousel slide">
                   <div class="carousel-inner">
-                     <div class="item active">
-                        <img src="images/Homepage_fig2.jpg" class="carousel-image" alt="" style="height: 70%; width: 70%; margin:auto;">                      
-                        <div class="carousel-caption">
-                           <h4> We combine experimental, computational, and theoretical approaches to elucidate the molecular mechanisms that underlie disease progression and exploit them for predictive medicine. Currently, we are focusing on diabetes and leukemia.<a href="research.html">Read more ...</a></h4>
-                           <p></p>
-                        </div>
+                     <div class="">
+                        <img src="images/Homepage_fig2.jpg" class="carousel-image" alt="" style="height: 100%; width: 100%; margin:auto;">                      
+                     </div>
+                     <div class="span12">
+                        <h4 style="size:20px;width:auto;margin: auto;justify-content: center;"> We combine experimental, computational, and theoretical approaches to elucidate the molecular mechanisms that underlie disease progression and exploit them for predictive medicine. Currently, we are focusing on diabetes and leukemia.<a href="research.html">Read more ...</a></h4>
+                     <br/>
                      </div>
                   </div>
                </div>
@@ -51,11 +63,7 @@
          <hr>
          <div class="container-fluid">
             <div class="row-fluid marketing">
-               <div class="span12">
-                  <p>
-                  </p>
-                  <br/>
-               </div>
+
               <hr>
             </div>
             </div>
