@@ -481,7 +481,7 @@ img.publications-thumb {
 .staff_container {
 	margin: auto;
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: repeat(4, 1fr);
 	align-items: stretch;
 	justify-content: center;
 	width: 100%;
@@ -490,15 +490,17 @@ img.publications-thumb {
 .staff_profile {
 	margin: auto;
 	width: 30vmin;
-	Height: 48vmin;
+	Height: 36vmin;
 	object-fit: cover;
 	border-radius: 1vmin;
   }
-  .staff_wrapper {
-	
-	margin: 4vmin;
+.staff_wrapper {
+	width: 100%; /* 一行放下4个，留点间距 */
+	max-width: 230px; /* 限制太大屏下的最大宽度 */
+	margin: 2vmin;
 	font-size: 2vmin;
-  }
+	text-align: center;
+}
   .staff_wrapper p{
 	margin: 5% 0;
   }
